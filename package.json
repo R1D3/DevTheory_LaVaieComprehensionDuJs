@@ -1,0 +1,23 @@
+{
+  "name": "devtheory",
+  "version": "1.0.0",
+  "description": "La vraie comprehension du JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R1D3/DevTheory_LaVaieComprehensionDuJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R1D3/DevTheory_LaVaieComprehensionDuJs/issues"
+  },
+  "homepage": "https://github.com/R1D3/DevTheory_LaVaieComprehensionDuJs#readme",
+  "dependencies": {
+    "prompt": "^1.1.0"
+  }
+}
