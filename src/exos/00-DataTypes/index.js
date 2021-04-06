@@ -1,5 +1,6 @@
 import prompt from 'prompt'
-
+// Créer un programme qui envoie la moitié d'un nombre, reçu de la part de l’utilisateur.
+// Ce qui est renvoyé doit obligatoirement être composé de chiffres
 const schema = {
   properties: {
     value: {
@@ -15,8 +16,7 @@ const getPrompt = async (isWrong = false) => {
   const { value } = await prompt.get(schema, 'value')
   const number = Number(value)
   const sum = number / 2
-  const result = String(sum)
-  return result
+  return sum
 }
 
 getPrompt().then((result) => {
