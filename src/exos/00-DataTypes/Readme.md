@@ -124,7 +124,7 @@ null est une valeur dite "non-sticky", elle est égale à 0 au seins des opérat
 ## undefined
 
 Tout comme null, undefined est lui aussi un type.
-mais il ne s'utilise pas, c'est lorsque l'on declare une variable sans lui assigner de valeur et bien notre variable sera égale a undefined 
+mais il ne s'utilise pas, c'est lorsque l'on declare une variable sans lui assigner de valeur que notre variable sera égale a undefined 
 
 `const myVar`
 `console.log(myVar) // undefined`
@@ -155,7 +155,7 @@ dans tout les cas typeof retournera une chaine de caractères contenant le nom d
 `typeof null // 'object'`
 
 ! drole de comportement sur ce dernier exemple ...
-normalement cela devrait nous retourner "null", mais beaucoup de programme ont été codé avec de default et donc dans un soucis de compatibilité de ces anciens programmes javascript à conservé ce comportement de typeof
+normalement cela devrait nous retourner "null", mais beaucoup de programme ont été codé avec ce default et donc dans un soucis de compatibilité de ces anciens programmes javascript à conservé ce comportement de typeof
 
 `type of console.log() // function`
 
@@ -182,7 +182,7 @@ ces objets globaux sont etroitement liés au prototypes.
 
 String()
 
-la conversion ne String est plutot simple et sans surprise
+la conversion en String est plutot simple et sans surprise
 
 `String(123) // "123"`
 `String(123.23) // "123.23"`
@@ -218,4 +218,4 @@ le type coercion est la conversion automatique des types
 `9 + 9 + azerty // 18azerty`
 `undefined + "azerty" // undefinedazerty`
 
-durant une addtion si une des deux valeurs est une chaine de carateres, js va automatiquement faire une conversion en string
+durant une addition si une des deux valeurs est une chaine de carateres, js va automatiquement faire une conversion en string
